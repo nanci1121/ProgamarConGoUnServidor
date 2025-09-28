@@ -1,0 +1,123 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 40px;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #1c1e21;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    width: 640px; /* Ancho combinado de los dos formularios */
+    text-align: center;
+    font-size: 16px;
+    visibility: hidden; /* Oculto por defecto */
+}
+
+.message.success {
+    background-color: #e9f6ec;
+    color: #0f5132;
+    visibility: visible;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #842029;
+    visibility: visible;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #166fe5;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #e4e6eb;
+    color: #000;
+}
+
+.btn-secondary:hover {
+    background-color: #dcdfe3;
+    transform: translateY(-2px);
+}
+
+.footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    color: #606770;
+    font-size: 14px;
+}

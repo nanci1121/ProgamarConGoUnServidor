@@ -1,8 +1,0 @@
-Hay que tener openssl instalado
-
-https://slproweb.com/products/Win32OpenSSL.html
-
-linux
-openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes
-windows
-openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes
